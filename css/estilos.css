@@ -307,7 +307,8 @@ h1, h2, h3, h4, h5, h6 {
       margin-bottom: 15px;
       overflow: hidden;
       height: 260px;
-      width: 260px; }
+      width: 260px;
+      display: inline-block; }
       #testimonials .profile .pic img {
         max-width: 100%; }
     #testimonials .profile h4 {
@@ -346,7 +347,8 @@ h1, h2, h3, h4, h5, h6 {
     #team .member .pic {
       margin-bottom: 15px;
       overflow: hidden;
-      height: 260px; }
+      height: 260px;
+      display: inline-block; }
       #team .member .pic img {
         max-width: 100%; }
     #team .member h4 {
@@ -415,6 +417,20 @@ h1, h2, h3, h4, h5, h6 {
     #contact .form button[type="submit"]:hover {
       background: #25d8fc; }
 
+#body-ingresar {
+  background: #202020; }
+
+#form-ingresar {
+  margin-top: 70px;
+  margin-bottom: 290px;
+  width: fit-content;
+  border-radius: 32px; }
+  #form-ingresar .olvidastecontrasenia {
+    margin-top: 20px;
+    margin-bottom: 20px; }
+  #form-ingresar .ingresodato, #form-ingresar .btn-info {
+    border-radius: 32px; }
+
 #footer {
   background: #111;
   padding: 30px 0;
@@ -426,3 +442,12 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     font-size: 13px;
     color: #ccc; }
+
+.btn-instagram {
+  color: #dda5ff; }
+
+.btn-facebook {
+  color: #85b4ff; }
+
+.btn-correo {
+  color: #ffaaaa; }

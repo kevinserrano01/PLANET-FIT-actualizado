@@ -212,6 +212,7 @@ padding: 80px 0;
         overflow: hidden;
         height: 260px;
         width: 260px;
+        display: inline-block;
         
             img {
                 max-width: 100%;
@@ -267,6 +268,7 @@ padding: 80px 0;
             margin-bottom: 15px;
             overflow: hidden;
             height: 260px;
+            display: inline-block;
             
             img {
                 max-width: 100%;
@@ -375,3 +377,30 @@ padding: 80px 0;
         }
     }
 }
+
+// SECCION INGRESAR=========================================================================
+#body-ingresar{
+    background: #202020;
+}
+
+#form-ingresar{
+    margin-top: 70px;
+    margin-bottom: 290px;
+    width: fit-content;
+    border-radius: 32px;
+
+    .olvidastecontrasenia{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .ingresodato{
+        border-radius: 32px;
+    }
+
+    .btn-info{
+        @extend .ingresodato;
+    }
+}
+
+// SECCION REGISTRAR==========================================================================

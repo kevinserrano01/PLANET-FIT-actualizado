@@ -17,3 +17,12 @@
     
     }
 }
+
+// MAP------------------------
+$redes:(instagram: #dda5ff, facebook: #85b4ff, correo: #ffaaaa);
+
+@each $clave, $valor in $redes {
+    .btn-#{$clave}{
+        color: $valor;
+    }
+}
