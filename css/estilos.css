@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5, h6 {
     #hero .hero-logo img {
       max-width: 100%; }
   #hero .hero-container {
-    background: rgba(0, 0, 0, 0.8);
+    background: #1c1c1ccc;
     display: table-cell;
     margin: 0;
     padding: 0;
@@ -105,7 +105,8 @@ h1, h2, h3, h4, h5, h6 {
     padding: 8px 20px;
     border-radius: 2px;
     transition: 0.5s;
-    margin: 10px; }
+    margin: 10px;
+    text-decoration: none; }
   #hero .btn-get-started {
     background: #03C4EB;
     border: 2px solid #03C4EB;
@@ -122,35 +123,9 @@ h1, h2, h3, h4, h5, h6 {
       border: 2px solid #03C4EB; }
 
 #header {
-  background: #111;
-  padding: 20px 0;
-  height: 90px; }
-  #header #logo {
-    float: left; }
-    #header #logo h1 {
-      font-size: 36px;
-      margin: 0;
-      padding: 6px 0;
-      line-height: 1;
-      font-family: "Raleway", sans-serif;
-      font-weight: 700;
-      letter-spacing: 3px;
-      text-transform: uppercase; }
-    #header #logo h1 a, #header #logo h1 a:hover {
-      color: #fff; }
-    #header #logo img {
-      padding: 0;
-      margin: 0;
-      max-height: 50px; }
-  @media (max-width: 768px) {
-    #header {
-      height: 80px; }
-      #header #logo h1 {
-        font-size: 26px; }
-      #header #logo img {
-        max-height: 40px; } }
-  .is-sticky #header {
-    background: rgba(0, 0, 0, 0.85); }
+  background: #1a1b1f; }
+  #header .LOGO {
+    width: 60px; }
 
 /* Sections Common --------------------------------*/
 .section-title {
@@ -368,7 +343,28 @@ h1, h2, h3, h4, h5, h6 {
         font-size: 18px;
         margin: 0 2px; }
 
-/* Contact Section --------------------------------*/
+#ENTRENAMIENTOS .columnas {
+  padding: 115px 100px;
+  background-color: #1a1b1f;
+  color: white;
+  font-family: 'Lexend Deca', sans-serif;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  @media (max-width: 576px) {
+    #ENTRENAMIENTOS .columnas {
+      padding: 50px; } }
+
+#ENTRENAMIENTOS h1 {
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 600;
+  color: #30ffea; }
+  @media (max-width: 576px) {
+    #ENTRENAMIENTOS h1 {
+      font-size: 30px; } }
+
 #contact {
   background: #f7f7f7;
   padding: 200px 0; }
@@ -417,31 +413,26 @@ h1, h2, h3, h4, h5, h6 {
     #contact .form button[type="submit"]:hover {
       background: #25d8fc; }
 
-#body-ingresar {
+#body-ingresar, #body-registrar {
   background: #202020; }
 
-#form-ingresar {
+#form-ingresar, #form-registrar {
   margin-top: 70px;
   margin-bottom: 290px;
   width: fit-content;
   border-radius: 32px; }
-  #form-ingresar .olvidastecontrasenia {
+  #form-ingresar .olvidastecontrasenia, #form-registrar .olvidastecontrasenia {
     margin-top: 20px;
     margin-bottom: 20px; }
-  #form-ingresar .ingresodato, #form-ingresar .btn-info {
+  #form-ingresar .ingresodato, #form-registrar .ingresodato, #form-ingresar .btn-info, #form-registrar .btn-info, #form-registrar .boton-registrar {
     border-radius: 32px; }
+  #form-ingresar .btn-info, #form-registrar .btn-info, #form-registrar .boton-registrar {
+    width: 300px; }
 
 #footer {
-  background: #111;
+  background: #1a1b1f;
   padding: 30px 0;
   color: #fff; }
-  #footer .copyright {
-    text-align: center; }
-  #footer .credits {
-    padding-top: 10px;
-    text-align: center;
-    font-size: 13px;
-    color: #ccc; }
 
 .btn-instagram {
   color: #dda5ff; }

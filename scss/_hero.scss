@@ -16,7 +16,7 @@
     }
 
     .hero-container {
-        background: rgba(0,0,0,0.80);
+        background: #1c1c1ccc;
         display: table-cell;
         margin: 0;
         padding: 0;
@@ -70,6 +70,7 @@
             border-radius: 2px;
             transition: 0.5s;
             margin: 10px;
+            text-decoration: none;
         }
 
     }

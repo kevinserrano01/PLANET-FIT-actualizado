@@ -306,7 +306,42 @@ padding: 80px 0;
     }
 }
 
-/* Contact Section --------------------------------*/
+
+// SECCION ENTRENAMIENTOS=====================================================================================================
+#ENTRENAMIENTOS{
+    .columnas{
+        padding: 115px 100px;
+        background-color: #1a1b1f;
+        color: white;
+        font-family: 'Lexend Deca', sans-serif;
+        text-align: left;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        @media (max-width: 576px) {
+            padding: 50px;
+        }
+    }
+
+    h1{
+        font-size: 50px;
+        line-height: 60px;
+        font-weight: 600;
+        color: #30ffea;
+
+        @media (max-width: 576px) {
+            font-size: 30px;
+        }
+    }
+}
+
+
+
+
+
+// Contact Section --------------------------------
 #contact {
     background: #f7f7f7;
     padding: 200px 0;
@@ -400,7 +435,18 @@ padding: 80px 0;
 
     .btn-info{
         @extend .ingresodato;
+        width: 300px;
     }
 }
 
 // SECCION REGISTRAR==========================================================================
+#body-registrar{
+    @extend #body-ingresar
+}
+
+#form-registrar{
+    @extend #form-ingresar;
+    .boton-registrar{
+        @extend .btn-info;
+    }
+}

@@ -1,21 +1,11 @@
+@import 'variables';
+
 // Footer
 
 #footer {
-    background: #111;
+    background: $bg-negroclaro;
     padding: 30px 0;
     color: #fff;
-    
-    .copyright {
-        text-align: center;
-    }
-    
-    .credits {
-        padding-top: 10px;
-        text-align: center;
-        font-size: 13px;
-        color: #ccc;
-    
-    }
 }
 
 // MAP------------------------
