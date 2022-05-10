@@ -29,7 +29,7 @@ background: #fff;
 padding: 80px 0;
 
     .about-container {
-        background: url("../images/asistentes-de-direccion-y-trabajo-en-equipo.png") left top no-repeat;
+        background: url("../images/EQUIPO1.jpg") no-repeat;
         background-position: right;
         background-size: contain;
     }
@@ -215,6 +215,16 @@ padding: 80px 0;
             }
         }
     }
+
+    .whatsapp{
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        width: 50px;
+        height: 50px;
+        z-index: 1;
+    }
+    
 }
 
 // SECCION INGRESAR=========================================================================
