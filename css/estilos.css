@@ -89,11 +89,11 @@ h1, h2, h3, h4, h5, h6 {
       border: 2px solid #03C4EB; }
 
 #header {
-  background: #1a1b1f; }
+  background: #0a0a0add; }
   #header .LOGO {
     width: 60px; }
   #header .navbar-toggler {
-    color: white; }
+    background-color: #70e5fc; }
 
 .section-title {
   font-size: 32px;

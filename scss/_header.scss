@@ -3,13 +3,14 @@
 // Header
 
 #header {
-    background: $bg-negroclaro;
+    background: $fondo-paraheader;
 
     .LOGO{
         width: 60px;
     }
 
     .navbar-toggler{
-        color: white;
+        // color: #ffffff;
+        background-color: #70e5fc;
     }
 }
